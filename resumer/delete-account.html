@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete Your Resumer Account</title>
+  <meta name="description" content="Instructions for deleting your Resumer account and associated data.">
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5c667a; --primary:#3157d5; --surface:#fff; --background:#f4f6fb; --border:#dfe4ef; --notice:#eef3ff; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--background); color:var(--ink); font-family:Arial,Helvetica,sans-serif; line-height:1.6; }
+    main { width:min(760px,calc(100% - 32px)); margin:48px auto; }
+    .card { background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:0 8px 28px rgba(23,32,51,.08); padding:40px; }
+    h1,h2 { line-height:1.25; } h1 { margin-top:0; font-size:32px; } h2 { margin-top:32px; font-size:21px; }
+    p,li { color:var(--muted); } a { color:var(--primary); font-weight:600; }
+    .notice { background:var(--notice); border-left:4px solid var(--primary); border-radius:8px; margin:24px 0; padding:16px 18px; }
+    .notice p { margin:0; } li { margin:10px 0; }
+    footer { color:var(--muted); font-size:14px; margin-top:24px; text-align:center; }
+    @media (max-width:600px) { main { margin:20px auto; } .card { padding:24px; } h1 { font-size:27px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <h1>Delete your Resumer account</h1>
+      <p>You can delete your Resumer account and associated local resume data directly from the Resumer app.</p>
+      <div class="notice"><p>Account deletion is permanent. Export or save any PDF resumes you want to keep before confirming deletion.</p></div>
+
+      <h2>How to delete your account</h2>
+      <ol>
+        <li>Open the Resumer app.</li>
+        <li>Sign in to your account.</li>
+        <li>Open the account or profile settings.</li>
+        <li>Select <strong>Delete Account</strong>.</li>
+        <li>Confirm the deletion request.</li>
+      </ol>
+
+      <h2>What will be deleted</h2>
+      <ul>
+        <li>Your Firebase Authentication account and account credentials.</li>
+        <li>Resume data stored locally by the app on the device.</li>
+        <li>Photos and signature images stored locally by the app.</li>
+      </ul>
+
+      <h2>What is not stored by Resumer</h2>
+      <p>Resumer does not store resumes, photos, or signatures in Firebase Firestore or Firebase Cloud Storage. Resume content is stored locally on your device and is not synchronized to our servers.</p>
+
+      <h2>Backups and exported files</h2>
+      <p>Android device backups may retain local app data until the backup is deleted or overwritten. PDF files saved, printed, or shared from the app are stored outside the app and must be deleted separately.</p>
+
+      <h2>If you cannot access the app</h2>
+      <p>Contact us at <a href="mailto:[adamzanber@gmail.com]">[privacy@yourdomain.com]</a> from the email address associated with your account. We will help with the account deletion request.</p>
+
+      <p><strong>Developer:</strong> Adam Zane</p>
+      <p><strong>Last updated:</strong> 30-09-2026</p>
+    </article>
+    <footer><a href="/resumer/privacy-policy.html">Privacy Policy</a></footer>
+  </main>
+</body>
+</html>
