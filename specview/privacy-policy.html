@@ -1,1 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for the SpecView Android application.">
+  <title>Privacy Policy — SpecView</title>
+  <style>
+    :root {
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --bg: #f3f4f6;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 1rem .5rem; }
+      main { padding: 1.5rem; }
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      line-height: 1.3;
+      margin-bottom: .25rem;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 2.25rem;
+      margin-bottom: .75rem;
+      padding-bottom: .35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p { margin-bottom: 1rem; }
+    ul { margin: 0 0 1rem 1.4rem; }
+    li { margin-bottom: .3rem; }
+    .contact-line { margin-bottom: .25rem; }
+    .placeholder { padding: 0 .3em; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>SpecView Privacy Policy</h1>
+      <p class="last-updated">Last updated: <time datetime="2026-10-25">25 October 2026</time></p>
+    </header>
+
+    <p>
+      SpecView is provided by <strong class="placeholder">[insert the developer or business name shown on the Google Play listing]</strong>
+      This policy explains what SpecView accesses on your Android device, how it uses that information,
+      and what happens if you choose to share a report.
+    </p>
+    <p class="contact-line">
+      <strong>Privacy contact:</strong>
+      <span class="placeholder">adamzanber@gmail.com</span>
+    </p>
+
+    <section>
+      <h2>Information SpecView accesses</h2>
+      <p>SpecView reads device and system information from Android so it can show device details and diagnostics. Depending on the device and Android version, this can include:</p>
+      <ul>
+        <li>Device model, manufacturer, hardware and build details, Android version, security patch, kernel version, uptime, and root status. The Device screen displays the build fingerprint and the device serial number when Android makes those values available.</li>
+        <li>CPU and graphics details, memory and swap figures, storage capacity and use, battery status and health, display specifications, camera capabilities, and the names and technical characteristics of installed sensors.</li>
+        <li>The names, package names, system/user classification, and approximate APK sizes of apps Android exposes as launchable apps.</li>
+        <li>When you view network information: connection type and, when available, Wi-Fi name (SSID), access point identifier (BSSID), signal and link details, security type, IP/network details, DNS, and mobile carrier or network type. Network charts may use Android traffic counters to calculate current transfer rates.</li>
+      </ul>
+      <p>These readings are used to display the app’s information screens and charts. Live readings are processed on your device while you use the relevant screen. SpecView does not use them to identify or track you.</p>
+    </section>
+
+    <section>
+      <h2>Permissions</h2>
+      <p>SpecView asks for a permission only when a related feature needs it:</p>
+      <ul>
+        <li><strong>Location while in use:</strong> Android may require this permission before an app can show the connected Wi-Fi name. SpecView uses it for that Wi-Fi detail; it does not read GPS coordinates or track your location.</li>
+        <li><strong>Phone:</strong> If you choose to show cellular network details, Android may ask for phone permission so SpecView can display the carrier and mobile network type. SpecView does not use it to read your phone number, contacts, call history, or text messages.</li>
+        <li><strong>Network and Wi-Fi state:</strong> Android grants these app permissions to read the active connection and technical network information.</li>
+      </ul>
+      <p>You can deny or revoke optional permissions in Android settings. The related detail may then be unavailable; other features can still work.</p>
+      <p>SpecView reads camera capabilities, such as supported resolutions and zoom, but does not take photos, record video, or record audio. It reads the device’s sensor list and specifications for display; it does not send sensor readings to us.</p>
+    </section>
+
+    <section>
+      <h2>Collection, sharing, and third parties</h2>
+      <p>SpecView does not send device information, app inventory, network details, or usage readings to servers operated by us. It has no account, cloud sync, advertising, or analytics service. The app does not include an advertising or analytics SDK.</p>
+      <p>You can choose to share a device report. Before Android’s share sheet opens, SpecView shows you a preview. The report contains the device and system details shown in that preview. Build fingerprint and serial are excluded by default and are included only if you select <strong>Include device identifiers</strong>. If you choose a messaging, email, storage, or other app and send the report, that recipient receives the text and handles it under its own terms and privacy policy. You can cancel instead of sharing. We do not receive a copy.</p>
+    </section>
+
+    <section>
+      <h2>Storage, retention, and deletion</h2>
+      <p>SpecView processes readings in app memory and does not maintain a server-side profile or retain a copy of your report. The app’s current settings and live chart history are held in memory and are not saved as a user history. Closing or restarting the app clears those readings. You can remove the app and its local app data by uninstalling it or clearing its storage in Android settings.</p>
+      <p>If you shared a report with another app or service, contact that recipient to ask about deleting its copy.</p>
+    </section>
+
+    <section>
+      <h2>Security</h2>
+      <p>Device readings remain on your device unless you choose to share a report. Android’s app sandbox and permission controls govern SpecView’s local access. A recipient app or service controls the security of information you send to it.</p>
+    </section>
+
+    <section>
+      <h2>Changes and contact</h2>
+      <p>We may update this policy when the app’s features or data practices change. The updated date will appear at the top of this page. For privacy questions, contact <strong class="placeholder">adamzanber@gmail.com</strong>.</p>
+    </section>
+  </main>
+</body>
+</html>
